@@ -2,7 +2,7 @@ class QuitsController < ApplicationController
   def new
     @user = User.find params[:user_id]
     @quit = @user.quits.build
-    if current_user.id != params[:user_id]
+    if current_user.id != params[:user_id] and current_user.admin == false
       flash[:alert] = "Can't create/edit a quit for another person"
       redirect_to root_path
     end
@@ -22,7 +22,7 @@ class QuitsController < ApplicationController
   def edit
     @user = User.find params[:user_id]
     @quit = Quit.find params[:id]
-    if current_user.id != params[:user_id]
+    if current_user.id != params[:user_id] and current_user.admin == false
       flash[:alert] = "Can't create/edit a quit for another person"
       redirect_to root_path
     end
