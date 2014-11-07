@@ -20,5 +20,11 @@ It's in application_controller, which is inherited by every other controller
 
 It says You need to sign in or sign up before continuing
 
-4b)
+5a)
+
+Nested Resources
+
+5b)
+
+Because they changed
 
