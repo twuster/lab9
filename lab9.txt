@@ -1,1 +1,9 @@
 Put our answers in here!
+
+2a) 
+
+When i log in, it takes me to a page with the list of users. When i try to log in again, it remembers me and automatically logs me in.
+
+2b)
+
+The helper is user_signed_in?
