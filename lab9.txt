@@ -7,3 +7,11 @@ When i log in, it takes me to a page with the list of users. When i try to log i
 2b)
 
 The helper is user_signed_in?
+
+3a) 
+
+Put an if statement in every view
+
+3b) 
+
+It's in application_controller, which is inherited by every other controller
