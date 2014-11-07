@@ -15,3 +15,10 @@ Put an if statement in every view
 3b) 
 
 It's in application_controller, which is inherited by every other controller
+
+4a)
+
+It says You need to sign in or sign up before continuing
+
+4b)
+
