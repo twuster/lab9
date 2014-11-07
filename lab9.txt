@@ -28,3 +28,10 @@ Nested Resources
 
 Because they changed
 
+6a)
+
+We only need to block specific actions
+
+6b)
+
+Because they are still allowed to do the actions in user controller
